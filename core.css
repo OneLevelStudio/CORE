@@ -1,0 +1,316 @@
+/* RESET CSS ==================================================================================================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* BASICS ==================================================================================================== */
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2.0rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a {
+    text-underline-offset: 2px;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+audio {
+    border: solid 2px gray;
+    border-radius: 9999px;
+}
+
+video {
+    border-radius: 8px;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.3rem 0.6rem;
+    background: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 90%);
+    border-radius: 8px;
+    border: none;
+    transition: all ease 0.2s;
+}
+
+button:hover {
+    background: hsl(0, 0%, 30%);
+}
+
+/* ULTILITIES ==================================================================================================== */
+
+/* ---------- Desktop/Mobile Only ---------- */
+.desktop-only {
+    display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+.mobile-only {
+    display: block;
+}
+
+@media only screen and (min-width: 1000px) {
+    .mobile-only {
+        display: none;
+    }
+}
+
+/* ---------- Center ---------- */
+.center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-x {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-y {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ---------- Anti-copy ---------- */
+
+.acp {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsla(0, 0%, 50%, 0.5);
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsla(0, 0%, 50%, 0.7);
+}
+
+/* ---------- RWD - Responsive Web Design ---------- */
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+@media screen and (min-width: 1000px) {
+    .row {
+        flex-wrap: nowrap;
+    }
+}
+
+.row [class^='col'] {
+    position: relative;
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+    .row .col-1 {
+        width: 8.33%;
+    }
+
+    .row .col-2 {
+        width: 16.66%;
+    }
+
+    .row .col-3 {
+        width: 25%;
+    }
+
+    .row .col-4 {
+        width: 33.33%;
+    }
+
+    .row .col-5 {
+        width: 41.66%;
+    }
+
+    .row .col-6 {
+        width: 50%;
+    }
+
+    .row .col-7 {
+        width: 58.33%;
+    }
+
+    .row .col-8 {
+        width: 66.66%;
+    }
+
+    .row .col-9 {
+        width: 75%;
+    }
+
+    .row .col-10 {
+        width: 83.33%;
+    }
+
+    .row .col-11 {
+        width: 91.66%;
+    }
+
+    .row .col-12 {
+        width: 100%;
+    }
+}
+
+/* INPUT ==================================================================================================== */
+
+fieldset {
+    margin: 1rem 0;
+    border-radius: 8px;
+    border: solid 1px hsl(0, 0%, 80%);
+    padding: 1.5rem 1rem 2rem 1rem;
+}
+
+legend {
+    font-family: monospace;
+    font-size: 0.8rem;
+    background: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 90%);
+    border-radius: 9999px;
+    padding: 0 0.5rem;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="date"],
+input[type="time"],
+input[type="file"] {
+    resize: none;
+    outline: none;
+    border: solid 1px hsl(0, 0%, 80%);
+    border-radius: 8px;
+    background: hsla(0, 0%, 100%, 0.5);
+    padding: 1.0rem 1.1rem 1.1rem 1.1rem;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="file"]:focus {
+    outline: solid 1px hsl(0, 0%, 80%);
+}
+
+input[type="color"] {
+    padding: 0.05rem 0.12rem;
+    margin: 0;
+    height: 2rem;
+    width: 4rem;
+    outline: none;
+    border: solid 1px hsl(0, 0%, 80%);
+    border-radius: 4px;
+}
+
+input[type="color"]:focus {
+    outline: solid 1px hsl(0, 0%, 80%);
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+:root {
+    --font-main: 'Inter', 'Roboto', Arial, sans-serif;
+    --font-size-1rem: 16px;
+    --color-bg: hsl(0, 0%, 95%);
+    --color-tx: hsl(0, 0%, 10%);
+    --color-lk: hsl(0, 0%, 10%);
+    --color-lk-hover: hsl(0, 0%, 40%);
+    --color-lk-underline: hsl(0, 0%, 30%);
+    --color-lk-underline-hover: hsl(0, 0%, 60%);
+    --color-text-select-tx: black;
+    --color-text-select-bg: wheat;
+}
+
+*,
+*::before,
+*::after {
+    font-family: var(--font-main);
+    font-size: var(--font-size-1rem);
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-tx);
+}
+
+::selection {
+    background: var(--color-text-select-bg);
+    color: var(--color-text-select-tx);
+}
+
+a {
+    color: var(--color-lk);
+    text-decoration-color: var(--color-lk-underline);
+}
+
+a:hover {
+    color: var(--color-lk-hover);
+    text-decoration-color: var(--color-lk-underline-hover);
+}
