@@ -1,5 +1,6 @@
 # OneLevelStudio/CORE
 ## CDN
+Package: https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE
 ### jsDelivr
 * CSS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/core.css
 * JS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/core.js
