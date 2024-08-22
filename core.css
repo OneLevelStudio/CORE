@@ -283,6 +283,7 @@ input[type="search"],
 input[type="date"],
 input[type="time"],
 input[type="file"] {
+    display: block;
     resize: none;
     outline: none;
     border: solid 1px hsl(0, 0%, 80%);
