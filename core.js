@@ -308,7 +308,7 @@ function ROS() {
     }
 
     function updateROS() {
-        for (let i = 0; i < 2000; i++) {
+        for (let i = 0; i < 999; i++) {
             if (ros[i] == undefined) { break };
             let rect = ros[i].getBoundingClientRect();
             //
