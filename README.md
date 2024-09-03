@@ -3,9 +3,12 @@ Package Page: https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE
 
 [![](https://data.jsdelivr.com/v1/package/gh/OneLevelStudio/CORE/badge)](https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE)
 ## CDN Files
-### jsDelivr
+### jsDelivr (Latest)
 * CSS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/core.css
 * JS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/core.js
+### jsDelivr (Version)
+* CSS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE@1.0.0/core.css
+* JS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE@1.0.0/core.js
 ### GitHub
 * CSS: https://raw.githubusercontent.com/OneLevelStudio/CORE/main/core.css
 * JS: https://raw.githubusercontent.com/OneLevelStudio/CORE/main/core.js
@@ -42,4 +45,4 @@ Package Page: https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE
 ### Custom CSS
 * Custom: https://raw.githubusercontent.com/OneLevelStudio/CORE/main/core-custom.css
 ### Live Demo
-* Demo: https://onelevelstudio.github.io/CORE/
+* Demo: https://onelevelstudio.github.io/CORE
