@@ -42,7 +42,7 @@ Package Page: https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE
 
 </html>
 ```
-### Custom CSS
-* Custom: https://raw.githubusercontent.com/OneLevelStudio/CORE/main/core-custom.css
+### Custom CORE Style
+* Custom: https://raw.githubusercontent.com/OneLevelStudio/CORE/main/style-core.css
 ### Live Demo
 * Demo: https://onelevelstudio.github.io/CORE
