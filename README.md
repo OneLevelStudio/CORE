@@ -1,17 +1,17 @@
 # OneLevelStudio/CORE
-Package Page: https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE
+Package: [jsDelivr - OneLevelStudio/CORE](https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE)
 
 [![](https://data.jsdelivr.com/v1/package/gh/OneLevelStudio/CORE/badge)](https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE)
 ## CDN Files
 ### jsDelivr (Latest)
-* CSS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/core.css
-* JS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/core.js
+* CSS: [CORE/core.css](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/core.css)
+* JS: [CORE/core.js](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/core.js)
 ### jsDelivr (Version)
-* CSS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE@1.0.0/core.css
-* JS: https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE@1.0.0/core.js
+* CSS: [CORE@1.0.0/core.css](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE@1.0.0/core.css)
+* JS: [CORE@1.0.0/core.js](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE@1.0.0/core.js)
 ### GitHub
-* CSS: https://raw.githubusercontent.com/OneLevelStudio/CORE/main/core.css
-* JS: https://raw.githubusercontent.com/OneLevelStudio/CORE/main/core.js
+* CSS: [CORE/main/core.css](https://raw.githubusercontent.com/OneLevelStudio/CORE/main/core.css)
+* JS: [CORE/main/core.js](https://raw.githubusercontent.com/OneLevelStudio/CORE/main/core.js)
 ## Installation
 ### CSS
 ```
