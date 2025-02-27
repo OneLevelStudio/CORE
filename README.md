@@ -21,6 +21,10 @@ Package: [jsDelivr - OneLevelStudio/CORE](https://www.jsdelivr.com/package/gh/On
 ```
 <script src="https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/core.js"></script>
 ```
+### Favicon
+```
+<link rel="icon" href="https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/static/favicon.png">
+```
 ## Usage
 ### Boilerplate
 ```
