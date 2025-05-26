@@ -41,7 +41,7 @@ function initSTT() {
             z-index: 1000;
             bottom: 0;
             right: 0;
-            font-size: 20px;
+            font-size: 24px;
             transform: rotate(-90deg);
             opacity: 0.0;
             cursor: pointer;
@@ -53,6 +53,7 @@ function initSTT() {
             align-items: center;
             color: hsl(0, 0%, 50%);
             user-select: none;
+            font-family: monospace !important;
         }
         #scrolltotop:hover {
             height: 100px;
@@ -110,16 +111,16 @@ function initDRK() {
         `
         <style>
         .darkmode {
-            filter: invert(1) hue-rotate(180deg);
+            filter: invert(0.98) hue-rotate(180deg);
         }
         
         .darkmode img,
         .darkmode video {
-            filter: invert(1) hue-rotate(180deg);
+            filter: invert(0.98) hue-rotate(180deg);
         }
         
         .darkmode .darkmode-ignore {
-            filter: invert(1) hue-rotate(180deg);
+            filter: invert(0.98) hue-rotate(180deg);
         }
         
         .darkmode-button {
@@ -152,11 +153,15 @@ function initDRK() {
             bottom: 0px;
             left: 0px;
             overflow: hidden;
-            background-color: #000000;
+            background-color:hsl(0, 0%, 10%);
             border-radius: var(--drkbtn-h);
             transition: 0.2s ease background-color, 0.2s ease opacity;
         }
-        
+
+        .darkmode-button:hover span {
+            opacity: 0.9;
+        }
+
         .darkmode-button span:before,
         .darkmode-button span:after {
             content: "";
@@ -169,29 +174,29 @@ function initDRK() {
         }
         
         .darkmode-button span:after {
-            background-color: #ffffff;
+            background-color:hsl(0, 0%, 90%);
             transform: translate(calc(var(--drkbtn-h) * 0.15), 0px);
             z-index: 0;
         }
-        
+
         .darkmode-button input[type="checkbox"]:checked+span:after {
-            background-color: #ffffff;
+            background-color:hsl(0, 0%, 90%);
             transform: translate(calc(var(--drkbtn-w) - var(--drkbtn-h) * 0.85), 0px);
         }
         
         .darkmode-button span:before {
-            background-color: #000000;
+            background-color:hsl(0, 0%, 10%);
             transform: translate( calc(var(--drkbtn-h) * -0.5), calc(var(--drkbtn-h) * -2));
             z-index: 1;
         }
         
         .darkmode-button input[type="checkbox"]:checked+span:before {
-            background-color: #000000;
+            background-color:hsl(0, 0%, 10%);
             transform: translate( calc(var(--drkbtn-w) - var(--drkbtn-h) * 1.15), calc(-0.25 * var(--drkbtn-h)));
         }
         
         .darkmode-button input[type="checkbox"]:checked+span {
-            background-color: #000000;
+            background-color:hsl(0, 0%, 10%);
         }
         
         .darkmode-button input[type="checkbox"]:active+span {

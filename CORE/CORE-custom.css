@@ -1,17 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+/* font-family: "Inter"; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font-family: "Geist"; */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+/* font-family: "JetBrains Mono"; */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 :root {
-    --font-main: 'Inter', 'Roboto', Arial, sans-serif;
+    --font-main: "Inter";
     --font-size-1rem: 16px;
-    --color-bg: hsl(0, 0%, 95%);
+    --color-bg: hsl(0, 0%, 90%);
     --color-tx: hsl(0, 0%, 10%);
     --color-lk: hsl(0, 0%, 10%);
     --color-lk-hover: hsl(0, 0%, 40%);
     --color-lk-underline: hsl(0, 0%, 30%);
     --color-lk-underline-hover: hsl(0, 0%, 60%);
-    --color-text-select-tx: black;
-    --color-text-select-bg: wheat;
+    --color-text-select-tx: hsl(0, 0%, 90%);
+    --color-text-select-bg: hsl(0, 0%, 10%);
 }
+
+/* ==================================================================================================== */
 
 *,
 *::before,
