@@ -1,6 +1,6 @@
 # OneLevelStudio/CORE
 
-[JSDelivr Page](https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE) | [JSDelivr CDN](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE)
+[JSDelivr Page](https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE) | [JSDelivr CDN](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/)
 
 [![](https://data.jsdelivr.com/v1/package/gh/OneLevelStudio/CORE/badge)](https://www.jsdelivr.com/package/gh/OneLevelStudio/CORE)
 
