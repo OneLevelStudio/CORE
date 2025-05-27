@@ -17,6 +17,7 @@
 * [easymde/easymde.min.css](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/CDN/easymde/easymde.min.css)
 * [easymde/easymde.min.js](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/CDN/easymde/easymde.min.js)
 * [fontawesome/all.min.js](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/CDN/fontawesome/all.min.js)
+* [marked/marked.min.js](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/CDN/marked/marked.min.js)
 
 ## STATIC
 
