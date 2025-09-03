@@ -21,10 +21,12 @@
 
 ## STATIC
 
-* [1LV_LOGO_DARK.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO_DARK.png)
-* [1LV_LOGO_BLACK.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO_BLACK.png) (Transparent)
-* [1LV_LOGO_LIGHT.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO_LIGHT.png)
-* [1LV_LOGO_WHITE.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO_WHITE.png) (Transparent)
+* [1LV_LOGO.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO.png)
+* [1LV_LOGO_DARK.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO_DARK.png) (White Text + Black Background) (Web Favicon)
+* [1LV_LOGO_WHITE.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO_WHITE.png) (White Text + Transparent Background)
+* [1LV_LOGO_LIGHT.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO_LIGHT.png) (Black Text + White Background)
+* [1LV_LOGO_BLACK.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO_BLACK.png) (Black Text + Transparent Background)
+* [1LV_LOGO_SOCIAL.png](https://cdn.jsdelivr.net/gh/OneLevelStudio/CORE/STATIC/1LV_LOGO_SOCIAL.png) (Smaller text for better social media profile pic)
 
 ## Code Snippets
 
