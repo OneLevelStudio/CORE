@@ -8,6 +8,7 @@
 :root {
     --font-main: "Inter";
     --font-size-1rem: 16px;
+    --font-weight: 400;
     --color-bg: hsl(0, 0%, 90%);
     --color-tx: hsl(0, 0%, 10%);
     --color-lk: hsl(0, 0%, 10%);
@@ -25,6 +26,7 @@
 *::after {
     font-family: var(--font-main);
     font-size: var(--font-size-1rem);
+    font-weight: var(--font-weight);
 }
 
 body {
